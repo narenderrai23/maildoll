@@ -14,7 +14,7 @@
         "pas": "php artisan serve &",
         "mv2": "mv .env.copy .env",
         "serve": "npm run mv1 && sleep 1 && npm run pas && npm run mv2",
-        "fresh":"chmod +x ./prepare-for-codecanyon.sh && sh ./prepare-for-codecanyon.sh"
+        "fresh": "chmod +x ./prepare-for-codecanyon.sh && sh ./prepare-for-codecanyon.sh"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
@@ -22,8 +22,8 @@
         "alpinejs": "^3.4.2",
         "autoprefixer": "^10.4.16",
         "axios": "^1.1.2",
-        "bootstrap": "^4.0.0",
-        "browser-sync": "^2.26.7",
+        "bootstrap": "^5.3.3",
+        "browser-sync": "^3.0.2",
         "browser-sync-webpack-plugin": "^2.0.1",
         "cross-env": "^7.0",
         "jquery": "^3.2",
@@ -38,7 +38,7 @@
         "vite": "^5.0.12",
         "vue": "^3.4.15",
         "vue-loader": "^17.4.2",
-        "vue-template-compiler": "^2.6.10"
+        "vue-template-compiler": "^0.1.0"
     },
     "dependencies": {
         "@ckeditor/ckeditor5-basic-styles": "^40.1.0",
@@ -80,7 +80,6 @@
         "toastify-js": "^1.9.0",
         "velocity-animate": "^1.5.2",
         "vue-email-editor": "^0.7.2",
-        "vue-template-compiler": "^2.6.11",
         "xlsx": "^0.18.5",
         "zoom-vanilla.js": "^2.0.6"
     }
